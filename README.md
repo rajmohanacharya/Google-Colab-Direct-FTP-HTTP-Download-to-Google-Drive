@@ -1,15 +1,12 @@
 **Features**
-Google Drive Integration: Mounts your Google Drive within Colab for seamless access and persistent storage.
 
-Direct File Downloads: Supports downloading files from FTP, HTTP, HTTPS URLs directly into your Google Drive folder.
+* Google Drive Integration: Mounts your Google Drive within Colab for seamless access and persistent storage.
+* Direct File Downloads: Supports downloading files from FTP, HTTP, HTTPS URLs directly into your Google Drive folder.
+* Interactive Usage: Input your direct download link in the notebook to start the download process.
+* No Need for Torrent Clients: Since this supports direct FTP or HTTP links, there's no need to install or configure torrent clients.
+* Reliable and Fast: Leverages Google’s infrastructure and your Google Drive for quick and persistent downloads.
 
-Interactive Usage: Input your direct download link in the notebook to start the download process.
-
-No Need for Torrent Clients: Since this supports direct FTP or HTTP links, there's no need to install or configure torrent clients.
-
-Reliable and Fast: Leverages Google’s infrastructure and your Google Drive for quick and persistent downloads.
-
-How to Use
+**How to Use**
 Open the Colab notebook.
 
 Mount your Google Drive by running the provided code cell.
@@ -43,3 +40,4 @@ This notebook does not handle torrents directly; it is designed for direct URL d
 
 
 Always use downloads responsibly and respect licensing/copyright.
+
