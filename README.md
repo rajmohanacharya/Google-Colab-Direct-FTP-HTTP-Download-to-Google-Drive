@@ -7,37 +7,32 @@
 * Reliable and Fast: Leverages Google’s infrastructure and your Google Drive for quick and persistent downloads.
 
 **How to Use**
-Open the Colab notebook.
 
-Mount your Google Drive by running the provided code cell.
+* Open the Colab notebook.
+* Mount your Google Drive by running the provided code cell.
+* Paste the direct FTP/HTTP download link (for example, from cloud torrent services or other file hosts).
+* Execute the download cell to save files directly to a Google Drive folder.
+* Access your downloaded files anytime from your Google Drive account.
 
-Paste the direct FTP/HTTP download link (for example, from cloud torrent services or other file hosts).
+**Why Use This?**
 
-Execute the download cell to save files directly to a Google Drive folder.
+* Avoids local bandwidth and storage constraints by using cloud computing and storage.
+* Ensures your downloads are saved in your Google Drive, available persistently.
+* Useful for users who have direct download links (e.g., FTP links, cloud torrent direct downloads, HTTP links).
 
-Access your downloaded files anytime from your Google Drive account.
+**Requirements**
 
-Why Use This?
-Avoids local bandwidth and storage constraints by using cloud computing and storage.
+* A Google account with Google Drive enabled.
+* Direct FTP/HTTP/HTTPS download link for the target file(s).
+* Basic familiarity with running Google Colab notebooks.
 
-Ensures your downloads are saved in your Google Drive, available persistently.
+**Notes**
 
-Useful for users who have direct download links (e.g., FTP links, cloud torrent direct downloads, HTTP links).
-
-Requirements
-A Google account with Google Drive enabled.
-
-Direct FTP/HTTP/HTTPS download link for the target file(s).
-
-Basic familiarity with running Google Colab notebooks.
-
-Notes
-Ensure that your download link is valid and accessible.
-
-Download files may be large; respect your Google Drive storage quota.
-
-This notebook does not handle torrents directly; it is designed for direct URL downloads.
+* Ensure that your download link is valid and accessible.
+* Download files may be large; respect your Google Drive storage quota.
+* This notebook does not handle torrents directly; it is designed for direct URL downloads.
 
 
 Always use downloads responsibly and respect licensing/copyright.
+
 
