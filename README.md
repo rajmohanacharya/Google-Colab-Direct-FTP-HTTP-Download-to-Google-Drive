@@ -1,6 +1,4 @@
-This project provides a Google Colab notebook that allows you to download files directly from FTP or HTTP/HTTPS URLs (like cloud torrent services or direct links) to your Google Drive. It enables easy and efficient file transfer to your cloud storage without running complex local setups.
-
-Features
+**Features**
 Google Drive Integration: Mounts your Google Drive within Colab for seamless access and persistent storage.
 
 Direct File Downloads: Supports downloading files from FTP, HTTP, HTTPS URLs directly into your Google Drive folder.
@@ -42,5 +40,6 @@ Ensure that your download link is valid and accessible.
 Download files may be large; respect your Google Drive storage quota.
 
 This notebook does not handle torrents directly; it is designed for direct URL downloads.
+
 
 Always use downloads responsibly and respect licensing/copyright.
